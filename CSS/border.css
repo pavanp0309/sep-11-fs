@@ -1,0 +1,73 @@
+input{
+    border: none;
+    outline: none;
+    outline-style:dashed ;
+    border-bottom: 2px solid red;
+}
+
+.solid{
+   /* border-style:solid ;
+   border-width: 2px;
+   border-color: red; */
+   /* border: 2px solid red; */
+   border-top-style: dashed;
+   border-bottom-style: dotted;
+   border-left-style: double;
+   border-right-style:ridge ;
+   border-top-width: 2px;
+   border-bottom-width: 2px;
+   border-left-width: 2px;
+   border-right-width: 2px;
+   border-right-color:green;
+   border-top-color:orangered;
+   border-bottom-color:orangered;
+   border-left-color:aqua;
+   /* border-radius: 5px; */
+   border-top-left-radius: 15px;
+   border-top-right-radius: 15px;
+   border-bottom-right-radius: 15px;
+   border-radius: 50%;
+   height: 50px;
+   width: 50px;
+   box-shadow: 3px 10px 10px 3px rgba(232,18,232,0.48);
+}
+.dotted{
+    border-style:dotted ;
+    border-width: 2px;
+    border-color: red;
+}
+.dashed{
+    border-style:dashed ;
+    border-width: 2px;
+    border-color: red;
+}
+.double{
+    border-style:double ;
+    border-width: 2px;
+    border-color: red;
+}
+.groved{
+    border-style:groove ;
+    border-width: 2px;
+    border-color: red;
+}
+.riged{
+    border-style:ridge ;
+    border-width: 2px;
+    border-color: red;
+}
+.inset{
+    border-style:inset ;
+    border-width: 2px;
+    border-color: red;
+}
+.outset{
+    border-style:outset;
+    border-width: 2px;
+    border-color: red;
+}
+.none{
+    border-style:none ;
+    border-width: 2px;
+    border-color: red;
+}

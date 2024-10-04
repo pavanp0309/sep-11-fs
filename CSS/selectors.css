@@ -1,0 +1,30 @@
+*{
+    background-color: aqua;
+    padding: 0;
+    margin: 0;
+
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+/* id selectors */
+/* #card{
+    background-color: red;
+} */
+
+/* class selector */
+/* .c1{
+    background-color: yellow;
+}
+.c2{
+    text-align: center;
+    padding: 10px;
+}
+.card{
+    text-transform: uppercase;
+} */
+
+/* group selectors */
+h4,#card,.c2{
+    background-color: red;
+}

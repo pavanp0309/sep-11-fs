@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tables</title>
+        <style>
+            /* td:nth-child(odd){
+                background-color: red;
+            }
+       table{
+          background-color:blue;
+       } */
+        table{
+            border: 3px dotted green;
+        }
+        </style>
+    </head>
+    <body bgcolor="red">
+        
+        <!-- usecases: cards ,weblayouts(nav footer ,main etc ),comparision,form layouts  etc  -->
+            <!-- table elements :
+             tr: table row
+             th: table header
+             td: table data
+             tbody ,thead,tfooter ,etc -->
+             <!-- padding : it is the space around the content -->
+             <table border="3" bgcolor="yellow"
+              style="border-collapse: collapse;"
+              width="100%" cellpadding="15"
+              cellspacing="10">
+              <legend align="center">TOP MOVIES</legend>
+              <colgroup>
+                <col style="background-color: aqua;">
+                <col >
+                <col style="background-color: aqua;">
+              </colgroup>
+                <tr><!--table row-->
+                   <th>Rank</th>
+                   <th>Title</th>
+                   <th>Productioncompany</th>
+                   <th>distributer</th>
+                   <th>worldwidegross</th>
+                   <th>Ref</th>
+                </tr>
+                <!-- secondrow -->
+                <tr align="center">
+                    <td rowspan="2">8</td>
+                    <td colspan="2">Article 370</td>
+                    <td>B62 Studios</td>
+                    <td>PVR Inox</td>
+                    <td>₹110.57 crore</td>
+                    <td>[9][2]</td>
+                </tr>
+                <tr align="center">
+                    <td>8</td>
+                    <td>Article 370</td>
+                    <td>B62 Studios</td>
+                    <td>PVR Inox</td>
+                    <td>₹110.57 crore</td>
+                    <td>[9][2]</td>
+                </tr>
+                <tr align="center">
+                    <td>8</td>
+                    <td>Article 370</td>
+                    <td>B62 Studios</td>
+                    <td>PVR Inox</td>
+                    <td>₹110.57 crore</td>
+                    <td>[9][2]</td>
+                </tr>
+                <tr align="center">
+                    <td>8</td>
+                    <td>Article 370</td>
+                    <td>B62 Studios</td>
+                    <td>PVR Inox</td>
+                    <td>₹110.57 crore</td>
+                    <td>[9][2]</td>
+                </tr>
+             </table>
+    </body>
+</html>

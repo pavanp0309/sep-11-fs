@@ -1,0 +1,61 @@
+/* box-model it is a container that wraps around the properties
+like : content padding  border margin  */
+/* padding : space around the content */
+/* margin: space around the border */
+/* border: a line around the padding */
+
+/* 1rem-16px */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box ;
+}
+img{
+    width: 100%;
+}
+body{
+    display: flex;
+}
+.card{
+    width: 250px;
+    background-color: aqua;
+    /* padding-bottom:.98rem ;
+    padding-top:.98rem ;
+    padding-left: .98rem;
+    padding-right: 10px; */
+    /* padding: .98rem; */
+    /* padding: 5px 2px; top-bottom left-right */
+    /* padding: 3px 2px 5px; top left-right bottom */
+    /* padding: 3px 4px 5px 2px ; top right bottom left  */
+    /* border:2px solid red;
+    margin-top:1.5rem ;
+    margin-left: 2.5rem; */
+    padding: 1.25rem;
+    border: 2px solid red;
+    margin: auto;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    border-radius:10px ;
+}
+.card-body{
+    text-align: center;
+    padding: .5rem;
+}
+.card-body>.card-title{
+    text-transform: uppercase;
+}
+.card-body>p{
+    margin-bottom: .5rem;
+}
+
+/* total-width: width+padding-left+padding-right+border-left+border-right */
+button{
+    padding: .48rem;
+    border-radius: 10px;
+    outline: none;
+     border: 2px solid red;
+     background-color:yellow;
+     font-size: .98rem;
+     text-transform: capitalize;
+     font-weight: bold;
+}

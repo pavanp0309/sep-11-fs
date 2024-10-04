@@ -1,0 +1,36 @@
+/* child selector : direct children */
+/* syntax : parent_selector > childselector */
+
+/* example : child selector */
+div>p{
+    background-color: #ff0000;
+    width: 100px;
+    padding: 10px;
+}
+
+
+/* descendent selector : not a direct child */
+/* syntax: parentselector (space) childselector */
+
+/* example : */
+div p{
+    background-color: aqua;
+    width: 100px;
+    padding: 10px;
+}
+
+ 
+/* sibiling : immediately fallowed sibiling */
+/* syntax: selector + immediately followed selector */
+
+
+div+p{
+  background-color:orange ;
+}
+
+
+/* generalsibiling :not immediately fallowed sibiling */
+/* syntax: selector ~not immediately followed selector */
+div~p{
+    background-color: crimson;
+}

@@ -1,0 +1,19 @@
+HTML : HyPerText markup Language
+
+HyPerText: The Text Which LInks two Webpages 
+markup: Nothing But Tags
+
+current Version Html: HTML5
+
+Latest Fetures of HTML5
+🎯Multimedia Tags :audio videos images ,iframes
+🎯form EHancements : date methods( month year day ),range ,image ,pdf etc ..
+🎯 Semantic Tags : header ,footer ,aside ,nav etc ..(seo:search engine optimization)
+🎯 svg (scalable vector graphics)
+🎯 canvas 
+🎯 webpapis: setTimeOut ,setInterval dragdrop storageapi etc 
+      API (Application Interface) 
+🎯  entities : special symbols
+
+<!DOCTYPE html> :DOCTYPE represents the Current Version of Html 
+
